@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🗓️ Calendar Rendering Task
 
-## Getting Started
+## Objective
 
-First, run the development server:
+Build a simple **monthly calendar UI** that renders the current month and highlights today's date. This task will test your understanding of **React**, **Next.js (App Router)**, and **Tailwind CSS**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js 15+ (App Router)](https://nextjs.org/docs/app)
+- [React 18+](https://reactjs.org)
+- [Tailwind CSS](https://tailwindcss.com)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎯 Requirements
 
-To learn more about Next.js, take a look at the following resources:
+1. **Render the current month calendar**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - Show the **month name** and **year** (e.g., "July 2025").
+   - Show the **day headers** (Sun, Mon, Tue, etc.).
+   - Show all dates of the month in a **grid format** (7 columns).
+   - Days should align with the correct weekday (i.e., if 1st is Tuesday, it should appear in the 3rd column).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Highlight today's date** using Tailwind styling.
 
-## Deploy on Vercel
+3. Optional (Bonus):
+   - Add navigation buttons to go to **previous/next month**.
+   - Show a small badge or style for **weekends**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
